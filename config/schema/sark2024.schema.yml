@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Bootstrap Barrio Subtheme.
+
+sark2024.settings:
+  type: bootstrap_barrio.settings
+  label: 'sark2024 settings'
