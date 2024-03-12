@@ -11,3 +11,11 @@ en moodboard,
 samt skapade en lokal backup av orginalsidan på en av våra enheter.
 
 ### 5/3 - 2024
+Hero - image skapades, svårt att hitta bra bilder på tjörnbron med bra upplösning. Favicon logga skapades. 
+Stock-bilder har valts ut, dålig upplösning på många bilder men hittades bättre bilder. 
+Definerat taxobomies där det valdes ut om vilka tags för articklarna som skulle användas. 
+Definierat content types. 
+Färgschema skapades med flera olika nyanser av primär och sekundär färgerna, även en gråskala har skapats med flera färger. Analyserade vad andra radioklubbar använder för färger.  
+Bootstrap tema har skapats, var tvungen o vänta på att andra delar skulle bli klara innan denna kunde bli klar. 
+Fonter har valts ut, Robonto för rubriker och titlar, Lato för brödtext, underrubriker osv. 
+Länk för utseende: https://typ.io/fonts/lato/with/roboto 
