@@ -1,4 +1,4 @@
-# Sark2024
+![Webbutveckling Radiologga](https://github.com/tcstenungsund/sark2024/assets/125873667/d6639435-d2e6-4ba3-b4f6-25c09813b9c4)# Sark2024
 Ett Bootstrap Barrio subtheme för Drupal 10 till Stenungsunds Amatör Radio Klubb
 
 # Dokumentation för projekt 
@@ -26,3 +26,7 @@ Bootstrap tema har skapats, var tvungen o vänta på att andra delar skulle bli 
 Fonter har valts ut, Robonto för rubriker och titlar, Lato för brödtext, underrubriker osv. 
 
 Länk för utseende: https://typ.io/fonts/lato/with/roboto 
+
+Logotyp har skapats och är färdigställd och den står i början.
+
+Pattern library är färdig och i den har vi button and liks, färger, typografi och grid.
