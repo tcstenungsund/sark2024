@@ -30,3 +30,17 @@ Länk för utseende: https://typ.io/fonts/lato/with/roboto
 Logotyp har skapats och är färdigställd och den står i början.
 
 Pattern library är färdig och i den har vi button and liks, färger, typografi och grid.
+
+### 26/3 - 2024
+Wireframes är klar. Det var svårare att göra content type wireframen vilket gjorde att det tog längre tid. 
+
+Användertester har påbörjats och 2 stycken tester har gjorts. 
+
+En datamigrerings HOWTO har påbörjats och delar av hemsidan har blivit inlagda.
+
+Pattern library är färdigt.
+
+Bootstrap build har ändrat format så den lättare kan användas.
+
+
+
