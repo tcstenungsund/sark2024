@@ -42,5 +42,18 @@ Pattern library är färdigt.
 
 Bootstrap build har ändrat format så den lättare kan användas.
 
+### 9/4 - 2024
+Lagt in taxonomies.
+
+En designcomp för navbaren har gjorts.
+
+Påbörjat designcomp för artikel/artiklar.
+
+### 16/4 - 2024
+En designcomp för cards har färdigställts.
+
+
+### 23/4 - 2024
+
 
 
