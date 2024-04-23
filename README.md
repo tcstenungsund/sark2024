@@ -52,8 +52,11 @@ Påbörjat designcomp för artikel/artiklar.
 ### 16/4 - 2024
 En designcomp för cards har färdigställts.
 
+Design utav navbar har påbörjats
+
 
 ### 23/4 - 2024
+Navbaren har blivit fixad och förbättrad.
 
-
+Arbete på footern har påbörjats.
 
