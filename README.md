@@ -60,3 +60,17 @@ Navbaren har blivit fixad och förbättrad.
 
 Arbete på footern har påbörjats.
 
+### 30/4 - 2024
+Användartester har gjorts för de nya wireframesen
+
+HowTo migreringen har slutförts
+
+Arebet på footern har fortsatts
+
+Subthemet och drupal containern har blivit nedladdat på en av gruppmedlämmarnas dator och skall senare bli det på resten av gruppens datorer
+
+
+
+
+
+
