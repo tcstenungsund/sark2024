@@ -6,6 +6,7 @@ global-styling:
     component:
       css/bootstrap.css: {}
       css/style.css: {}
+      css/article.css: {}
       css/colors.css: {}
 bootstrap:
   js:

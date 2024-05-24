@@ -1,5 +1,6 @@
 /* ---------- Color Module Styles ----------- */
 
+
 body {
   color: #3b3b3b;
   background: #292929;
@@ -9,7 +10,7 @@ body {
 #main-wrapper,
 .region-primary-menu .menu-item a.is-active,
 .region-primary-menu .menu-item--active-trail a {
-  background: #fff;
+  background: #eef2f2;
 }
 
 .tabs ul.primary li a.is-active {
@@ -29,16 +30,22 @@ body {
   background-color: #1d84c3;
 }
 
-a,
-.link {
-  color: #0071b3;
+a.nav-link{
+  color: #55ABDC;
 }
+
+a.nav-link:hover{
+  color: #21719F;
+}
+
+
+
 
 a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-  color: #018fe2;
+  color:  #21719F;
 }
 .nav-item .dropdown-item a.active {
   color: white;

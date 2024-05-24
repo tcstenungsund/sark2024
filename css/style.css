@@ -2,3 +2,47 @@
  * @file
  * Subtheme specific CSS.
  */
+
+
+ p{
+    color: #21222B;   
+    font-family: lato;
+    font-size: 1.4em;
+ }
+
+ h1, h2, h3{
+    color: #21222B;
+ }
+
+ h1{
+    font-size: 2.25em;
+ }
+
+ h2{
+    font-size: 1,75em;
+ }
+
+ h3{
+    font-size: 1.42em;
+ }
+
+ #main-wrapper {
+   background-color: #EEF2F2;
+ }
+
+ a, button{
+    color: #55ABDC;
+ }
+
+ a:hover{
+    color: #21719F
+ }
+
+button:hover{
+    transform: scale(1.3);
+    color: #21719F
+}
+
+button{
+    color: #55ABDC;
+}
