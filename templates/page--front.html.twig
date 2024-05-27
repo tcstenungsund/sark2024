@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="{{ language.language }}">
+  <head>
+    <head-placeholder token="{{ placeholder_token|raw }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token|raw }}">
+    <js-placeholder token="{{ placeholder_token|raw }}">
+  </head>
+  <body{{ attributes }}>
+    <div id="page-wrapper">
+      <div id="page">
+        {% block head %}
+                {% if page.secondary_menu or page.top_header or page.top_header_form %}
+                  <nav{{ navbar_top_attributes }}>
+                  {% if container_navbar %}
+                  <div class="container">
+                  {% endif %}
+                      {{ page.secondary_menu }}
+                      {{ page.top_header }}
+                      {% if page.top_header_form %}
+                        <div class="form-inline navbar-form float-right">
+                          {{ page.top_header_form }}
+                        </div>
+                      {% endif %}
+                  {% if container_navbar %}
+                  </div>
+                  {% endif %}
+                  </nav>
+                {% endif %}
+                <nav{{ navbar_attributes }}>
+                  {% if container_navbar %}
+                  <div class="container">
+                  {% endif %}
+                    {{ page.header }}
+
+                    {{ site_branding }}
+                    <button id="navbar-toggler" class="hamburger-menu" type="button" aria-expanded="false" aria-label="Toggle navigation">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </button>
+                    <div class="collapse navbar-collapse" id="CollapsingNavbar">
+                      {{ page.primary_menu }}
+                      {% if page.header_form %}
+                        <div class="form-inline navbar-form float-right">
+                          {{ page.header_form }}
+                        </div>
+                      {% endif %}
+                    </div>
+                  {% if container_navbar %}
+                  </div>
+                  {% endif %}
+                </nav>
+        {% endblock %}
+
+        <main id="main">
+          <div id="content" class="column">
+            <div class="section">
+              <div class="static-image">
+                <img src="{{ directory }}/images/bron.jpg" alt="En ädel bild på tjrönbron">
+                <div class="cover"></div>
+                <h2>Stenungsunds Amatör Radio Klubb</h2>
+              </div>
+              {{ drupal_view('spotlight') }}
+              <div class="grid-collections">
+                {{ drupal_view('popular_blog_posts') }}
+                {{ drupal_view('duplicate_of_popular_blog_posts') }}
+              </div>
+              <div class="call-to-action-box">
+                <div class="wrapper">
+                <p>Upptäck en värld av innovation och gemenskap! Klicka nedan för att lära dig mer om vår förening för radio- och teknikentusiaster.</p>
+                <a class="call-to-action-button" href="">Klicka Här!</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        {% block footer %}
+          <div class="{{ container }}">
+              <div class="site-footer__top clearfix">
+                {{ page.footer_first }}
+                {{ page.footer_second }}
+              </div>
+          </div>
+        {% endblock %}
+      </div>
+    </div>
+    <js-bottom-placeholder token="{{ placeholder_token|raw }}">
+  </body>
+</html>

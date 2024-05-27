@@ -2,11 +2,14 @@ global-styling:
   version: VERSION
   js:
     js/global.js: {}
+    js/toggle-navbar.js: {}
   css:
     component:
       css/bootstrap.css: {}
       css/style.css: {}
+      css/front-page.css: {}
       css/article.css: {}
+      css/navbar.css: {}
       css/colors.css: {}
 bootstrap:
   js:
@@ -16,6 +19,7 @@ bootstrap:
     component:
       /libraries/bootstrap/dist/css/bootstrap.min.css: {}
   dependencies:
+    - core/jquery
     - core/popperjs
 bootstrap_cdn:
   js:

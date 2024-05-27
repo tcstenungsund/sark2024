@@ -1,0 +1,9 @@
+{# templates/node--article--teaser.html.twig #}
+<article{{ attributes }} class="spotlight">
+    {{ content.field_image}}
+    <div{{ content_attributes }} class="info">
+        {{ content.title }}
+        {{ content.field_description }}
+        <a href="{{ url }}" class="see-more">See More</a>
+    </div>
+</article>

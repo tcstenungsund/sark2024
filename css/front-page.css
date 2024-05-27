@@ -1,0 +1,192 @@
+.view-spotlight{
+  padding: 2rem 0;
+  .views-row{
+    display: flex;
+    justify-content: center;
+    .contextual-region{
+      display: flex;
+      align-items: center;
+      .field--name-field-image{
+        height: 10rem;
+        a{
+          display: block;
+          height: 100%;
+          img{
+            margin: 0;
+            height: 100%;
+            width: 16rem;
+            object-fit: cover;
+          }
+        }
+      }
+      .info{
+        padding-left: 1rem;
+        .see-more{
+          background-color: blue;
+          color: white;
+          font-weight: bold;
+          padding: .2rem .45rem;
+          margin-top: 5rem;
+        }
+      }
+    }
+  }
+}
+
+.call-to-action-box{
+  display: flex;
+  justify-content: center;
+  .wrapper{
+    width: 32rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    p{
+      background: rgb(155, 155, 194);
+      color: white;
+      padding: .5rem;
+      border-radius: .25rem;
+    }
+    a{
+      background-color: blue;
+      color: white;
+      width: 8rem;
+      padding: .25rem 0;
+      text-align: center;
+    }
+  }
+}
+
+
+
+
+.static-image{
+    width: 100%;
+    height: 10rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+    }
+    .cover{
+        display: block;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.35);
+            -webkit-box-shadow: inset 0px 0px 42px 4px rgba(0,0,0,0.35);
+        -moz-box-shadow: inset 0px 0px 42px 4px rgba(0,0,0,0.35);
+        box-shadow: inset 0px 0px 42px 4px rgba(0,0,0,0.35);
+    }
+    h2{
+        position: absolute;
+        bottom: 2.75rem;
+        left: 50%;
+        z-index: 2;
+        transform: translate(-50%); /* Offset child by 50% of its own width/height */
+        color: white;
+        margin: 0 auto;
+        
+    }
+}
+.spotlight{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns of equal width */
+    grid-template-rows: auto auto;  /* Two rows of automatic height */
+    gap: 10px; /* Optional: Adds space between grid items */
+    
+    .field--name-field-image{
+        margin: 0;
+        height: 8rem;
+        grid-column: 1 / 2; /* Span the first column */
+        grid-row: 1 / span 2; /* Span two rows */
+        background-color: lightblue; /* Example background color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            display: block;
+            height: 100%;
+            img{
+                margin: 0;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .field--name-title{
+        grid-column: 2 / 3; /* Second column */
+        grid-row: 1; /* First row of the second column */
+        background-color: lightcoral; /* Example background color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .field--name-field-description{
+        grid-column: 2 / 3; /* Second column */
+        grid-row: 2; /* Second row of the second column */
+        background-color: lightgreen; /* Example background color */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.grid-collections{
+  .view{
+    padding: 1rem;
+    .view-header{
+      font-size: 1.25rem;
+      padding-bottom: .5rem;
+      font-weight: bold;
+    }
+    .view-content{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0rem 2rem 2rem 2rem;
+  
+      >div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+          -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.15);
+          -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.15);
+  
+        .views-field-field-image{
+          width: 100%;
+          height: 8rem;
+          > div{
+            height: 100%;
+            a{
+              display: block;
+              height: 100%;
+              img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+          }
+        }
+        .views-field-title{
+          width: 100%;
+          padding: .5rem .5rem .6rem .5rem;
+        }
+      }
+    }
+  }
+}
