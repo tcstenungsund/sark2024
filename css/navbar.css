@@ -10,8 +10,21 @@
     display: flex;
     flex-direction: row;
 
-    .nav-link {
-        padding: 0.5rem;
+    .nav-item{
+        .nav-link {
+            padding: 0.5rem;
+            color:whitesmoke
+        }
+        .nav-link.active{
+            color:whitesmoke
+        }
+        .dropdown-menu{
+            .dropdown-item{
+                a{
+                    color: #333;
+                }
+            }
+        }
     }
 }
 
@@ -48,10 +61,21 @@ header #search-block-form * {
 
     .collapse {
         justify-content: space-between;
+        padding-right: 1rem;
+    }
+    .dropdown:hover > .dropdown-menu {
+        display: block;
     }
 }
 
 @media (max-width: 992px) {
+    body .dropdown:hover > .dropdown-menu {
+        display: none;
+    }
+    .dropdown-menu.show{
+        display: block !important;
+    }
+
     .navbar-nav {
         flex-direction: column;
     }
@@ -60,6 +84,34 @@ header #search-block-form * {
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-start;
+        padding-top: 1.25rem;
+        #block-sark2024-searchform{
+            margin-bottom: .5rem;
+            .content{
+                width: 100%;
+                .js-form-type-search{
+                    width: calc(18rem);
+                }
+            }
+        }
+        #block-sark2024-main-menu{
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 500px) {
+
+    #CollapsingNavbar.show {
+        #block-sark2024-searchform{
+            width: 100%;
+            .content{
+                width: 100%;
+                .js-form-type-search{
+                    width: calc(100% - 75.15px);
+                }
+            }
+
+        }
     }
 }
 
