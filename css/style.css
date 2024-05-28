@@ -2,6 +2,22 @@
  * @file
  * Subtheme specific CSS.
  */
+ .sicons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.region-footer-second {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap !important;
+}
+
+.--menu-omoss {
+    padding: 100px;
+}
 
 
  p{
