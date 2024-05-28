@@ -69,8 +69,22 @@ Arebet på footern har fortsatts
 
 Subthemet och drupal containern har blivit nedladdat på en av gruppmedlämmarnas dator och skall senare bli det på resten av gruppens datorer
 
+### 14/5 - 2024
 
+Designcompen är klar, både för dator och mobilversion.
 
+överföringen av content börjades, många personer körde på med detta.
 
+Byggandet av navbaren har påbörjat. 
 
+### 21/5 - 2024
 
+Överföring av content forsätts, fortfarande flera personer på detta
+
+Navbaren är klar
+
+footer är klar
+
+css dokument för färg och storlek är klar 
+
+Presentaion påbörjades och delades upp så gruppen kunde göra klart den till nästa vecka
